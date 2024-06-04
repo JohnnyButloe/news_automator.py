@@ -60,7 +60,8 @@ def get_sources_by_category(category):
 
 
 if __name__ == "__main__":
-    print(f"Getting news for {'technology'}...\n")
-    get_articles_by_category('technology')
-    print(f"Successfully retrieved top {'technology'} headlines")
-    # print_sources_by_category("technology")
+    print(f"Getting news for {argv[1]}...\n")
+    get_artciles_by_category(argv[1])
+    print(f"Successfully retrieved top {argv[1]} headlines")
+    # get_artciles_by_query("Elon Musk"))
+    #print_sources_by_category("technology")
